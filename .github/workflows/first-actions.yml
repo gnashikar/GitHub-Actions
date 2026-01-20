@@ -2,9 +2,9 @@ name: My First GitHub Action
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "feature/workflow" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "feature/workflow" ]
 
 jobs:
   build:
